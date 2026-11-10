@@ -1,144 +1,159 @@
 
-<p align="left">
-  <sub><strong>N/K</strong> &nbsp; / &nbsp; SOFTWARE ENGINEER &nbsp; / &nbsp; SAN FRANCISCO</sub>
+<p align="center">
+  <img src="./assets/hero.svg" alt="Noriaki Kishida — AI Systems, Secure Infrastructure & Products" width="100%">
 </p>
 
-# Noriaki Kishida
+<p align="center">
+  <strong>Software Engineer · B.Sc. Computer Science & AI @ Minerva University '27</strong>
+</p>
 
-### Ideas are easy. I build the real thing.
+<p align="center">
+  Building AI systems, secure infrastructure, and end-to-end products that solve real problems.
+  <br>
+  From architecture and implementation to products people can actually use.
+</p>
 
-I build **AI systems, secure infrastructure, and end-to-end products** that solve real problems.
+<p align="center">
+  <a href="https://noriakikishida.com">Portfolio ↗</a>
+  &nbsp; • &nbsp;
+  <a href="https://www.linkedin.com/in/noriaki-kishida/">LinkedIn ↗</a>
+  &nbsp; • &nbsp;
+  <a href="mailto:noriaki@uni.minerva.edu">Email ↗</a>
+</p>
 
-My work spans confidential LLM inference, autonomous agents, and local-first software. I care about more than getting a prototype to work: I care about system design, trustworthy behavior, and shipping something people can actually use.
+<br>
 
-**B.Sc. Computer Science & Artificial Intelligence** · Minerva University · Class of 2027
+## 01 / Selected Work
 
-[**Portfolio**](https://noriakikishida.com) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/noriaki-kishida/) &nbsp;·&nbsp; [**Email**](mailto:noriaki@uni.minerva.edu)
+### Built with intent.
 
----
-
-## 01 / Selected work
-
-### [Confidential LLM on AWS Nitro Enclaves](https://github.com/Marstronix218/confidential-llm-on-nitro-enclaves)
-
-**CONFIDENTIAL COMPUTING · OPEN SOURCE**
-
-An LLM chat system designed to keep sensitive prompts and responses hidden from the machine hosting the model.
-
-- Architected a control plane, an untrusted EC2 host, and an isolated Nitro Enclave, with encrypted communication over vsock.
-- Implemented RSA-OAEP key handling and fail-closed attestation verification, with automated tests and a Docker Compose mock mode that runs without AWS.
-
-`Python` · `Flask` · `AWS Nitro Enclaves` · `Cryptography` · `Docker` · `React`
-
-[Explore the source code ↗](https://github.com/Marstronix218/confidential-llm-on-nitro-enclaves)
-
----
-
-### [knov](https://github.com/Marstronix218/knov)
+#### 01 — [knov](https://github.com/Marstronix218/knov) ↗
 
 **LOCAL-FIRST AI · MACOS · TECHNICAL ALPHA**
 
-A local-first macOS assistant that connects fragmented work context and helps small businesses spot potential missed revenue, backed by evidence rather than AI guesses.
+<a href="https://github.com/Marstronix218/knov">
+  <img src="https://noriakikishida.com/_next/image?url=%2Fprojects%2Fknov.webp&amp;w=3840&amp;q=75" alt="knov application interface" width="100%">
+</a>
 
-- Built a Tauri/Rust desktop architecture with React, TypeScript, and local SQLite storage.
-- Designed privacy-conscious context collection, evidence-linked findings, deterministic detection rules, and user-controlled actions.
+A local-first macOS assistant that finds overlooked revenue opportunities by connecting contracts, email, Slack, and work activity — with evidence behind every finding.
 
-`Rust` · `Tauri` · `TypeScript` · `React` · `SQLite`
+**Engineering:** Tauri and Rust core, local SQLite storage, deterministic detection, privacy-conscious connectors, and optional AI.
 
-[Explore the project ↗](https://github.com/Marstronix218/knov) · [Read the case study ↗](https://noriakikishida.com)
+`Rust` `Tauri` `React` `TypeScript` `SQLite`
 
----
+**[Explore the source →](https://github.com/Marstronix218/knov)**
 
-### [Research Copilot](https://github.com/Marstronix218/Research-Copilot)
+<br>
 
-**CONTEXT-AWARE AI · BROWSER EXTENSION**
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Marstronix218/confidential-llm-on-nitro-enclaves">
+        <img src="https://noriakikishida.com/_next/image?url=%2Fprojects%2Fconfidential-llm.webp&amp;w=3840&amp;q=75" alt="Confidential LLM interface" width="100%">
+      </a>
+      <h3>02 — <a href="https://github.com/Marstronix218/confidential-llm-on-nitro-enclaves">Confidential LLM ↗</a></h3>
+      <sub>SECURE AI · CONFIDENTIAL COMPUTING</sub>
+      <p>An LLM chat app that runs inference inside an AWS Nitro Enclave, protecting prompts from the untrusted host.</p>
+      <p><b>Built:</b> RSA-OAEP encryption, vsock communication, remote attestation verification, and a no-AWS mock mode.</p>
+      <p><code>Python</code> <code>AWS</code> <code>Flask</code> <code>Docker</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/syang0624/hookloop">
+        <img src="https://noriakikishida.com/_next/image?url=%2Fprojects%2Fhookloop.webp&amp;w=3840&amp;q=75" alt="HookLoop campaign analysis interface" width="100%">
+      </a>
+      <h3>03 — <a href="https://github.com/syang0624/hookloop">HookLoop ↗</a></h3>
+      <sub>MULTI-AGENT SYSTEMS · HACKATHON</sub>
+      <p>An autonomous paid-ad experimentation agent that generates creatives, simulates campaigns, and learns from performance.</p>
+      <p><b>🏆 2nd Prize</b> — Convex Track, YC Growth Hackathon 2026.</p>
+      <p><code>Next.js</code> <code>Convex</code> <code>OpenAI</code> <code>Sora</code></p>
+      <p><a href="https://hookloop-ruddy.vercel.app">Live demo →</a></p>
+    </td>
+  </tr>
+</table>
 
-An AI research assistant that turns unstructured browsing into a goal-driven research process.
+#### 04 — [Research Copilot](https://github.com/Marstronix218/Research-Copilot) ↗
 
-- Built a Chrome extension and FastAPI backend for goal clarification, research-question generation, and real-time webpage analysis.
-- Designed session memory, source-linked insight extraction, and gap and browsing-drift detection to help users research more deliberately.
+**CONTEXT-AWARE AI · CHROME EXTENSION**
 
-`JavaScript` · `Python` · `FastAPI` · `OpenAI API` · `Chrome Extensions`
+A browser-native research assistant that clarifies goals, tracks browsing context, extracts relevant insights, and identifies gaps in what you've learned.
 
-[Explore the source code ↗](https://github.com/Marstronix218/Research-Copilot)
+`JavaScript` `FastAPI` `OpenAI API` `Chrome Extensions`
 
----
+**[Explore the project →](https://github.com/Marstronix218/Research-Copilot)**
 
-### [HookLoop](https://github.com/syang0624/hookloop)
-
-**MULTI-AGENT SYSTEMS · TEAM HACKATHON**
-
-**2nd Prize — Convex Track, YC Growth Hackathon 2026**
-
-An autonomous paid-ad experimentation agent that generates creatives, simulates campaigns, analyzes performance, and iterates on what it learns.
-
-- Built with a three-agent workflow spanning strategy, creative generation, and performance analysis.
-- Combined structured AI outputs, campaign simulation, and reactive data to make the experimentation loop observable.
-
-`Next.js` · `TypeScript` · `Convex` · `OpenAI` · `Sora`
-
-[Source code ↗](https://github.com/syang0624/hookloop) · [Live demo ↗](https://hookloop-ruddy.vercel.app)
-
----
-
-## 02 / Engineering impact
-
-A few outcomes from building software with real teams across Japan, South Korea, and Taiwan.
-
-| EAGLYS | GSP Cloud | Global Launchers |
-| :--- | :--- | :--- |
-| **60 → 5 min** | **50+ workflows** | **45+ RSS feeds** |
-| Reduced confidential AI environment setup time through infrastructure automation. | Built a console for managing AI-agent workflows. | Built an automated business-news ingestion and publishing platform. |
-
-Also built [**IndoBiz Japan**](https://indobiz-japan.launchers-g.com/) — a business-intelligence platform using Next.js, Supabase, and AI-assisted news synthesis.
-
-[View the code ↗](https://github.com/Marstronix218/indobiz_japan)
+<br>
 
 ---
 
-## 03 / Tools I work with
+## 02 / Engineering Impact
 
-**Languages**
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <h2>60 → 5 min</h2>
+      <sub><b>EAGLYS</b></sub>
+      <br>
+      <sub>Confidential AI environment setup</sub>
+    </td>
+    <td align="center" width="33%">
+      <h2>50+</h2>
+      <sub><b>GSP CLOUD</b></sub>
+      <br>
+      <sub>AI agent workflows managed</sub>
+    </td>
+    <td align="center" width="33%">
+      <h2>45+</h2>
+      <sub><b>GLOBAL LAUNCHERS</b></sub>
+      <br>
+      <sub>RSS feeds automated</sub>
+    </td>
+  </tr>
+</table>
 
-![Python](https://img.shields.io/badge/Python-24292F?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-24292F?style=flat-square&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-24292F?style=flat-square&logo=rust&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-24292F?style=flat-square&logo=postgresql&logoColor=white)
+Building on real teams across Japan, South Korea, and Taiwan, with a focus on reliable systems, security, and workflow automation.
 
-**Applications & interfaces**
+<br>
 
-![React](https://img.shields.io/badge/React-24292F?style=flat-square&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-24292F?style=flat-square&logo=nextdotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-24292F?style=flat-square&logo=fastapi&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24292F?style=flat-square&logo=tauri&logoColor=white)
+## 03 / Technical Toolkit
 
-**AI, data & infrastructure**
+**Languages & frameworks**
 
-![AWS](https://img.shields.io/badge/AWS-24292F?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-24292F?style=flat-square&logo=docker&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-24292F?style=flat-square&logo=pytorch&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-24292F?style=flat-square&logo=supabase&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=python,ts,rust,js,react,nextjs,fastapi&theme=light" alt="Python, TypeScript, Rust, JavaScript, React, Next.js and FastAPI">
+</p>
 
-The right tool for the problem, not the trend.
+**AI & infrastructure**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch,aws,docker,supabase,flask,postgres,linux&theme=light" alt="PyTorch, AWS, Docker, Supabase, Flask, PostgreSQL and Linux">
+</p>
+
+<sub>My preferred stack is the one that best fits the problem.</sub>
+
+<br>
+
+## 04 / Selected Recognition
+
+| Year | Recognition |
+| :--- | :--- |
+| **2026** | 🥈 2nd Prize — Convex Track, YC Growth Hackathon |
+| **2025** | 🥇 Winner — Students@AI Seoul Hackathon, 200 teams |
+| **2024** | 🥇 Winner — Minerva Hiring Hackathon, 150 teams |
+
+<br>
 
 ---
 
-## 04 / Selected recognition
+<p align="center">
+  <strong>Have an interesting problem to solve?</strong>
+  <br><br>
+  I'm interested in AI engineering, secure systems, and software that makes a measurable difference.
+  <br><br>
+  <a href="https://noriakikishida.com"><b>Explore my work ↗</b></a>
+  &nbsp; • &nbsp;
+  <a href="mailto:noriaki@uni.minerva.edu"><b>Let's talk ↗</b></a>
+</p>
 
-- **2026** — 2nd Prize, Convex Track, YC Growth Hackathon — HookLoop
-- **2025** — 1st Place of 200 teams, Students@AI Seoul Hackathon — Researcher Connecting Platform
-- **2024** — 1st Place of 150 teams, Minerva Hiring Hackathon
-
-What these experiences reinforced: understand the problem deeply, identify the real constraints, and build toward a clear outcome.
-
----
-
-## 05 / Let's connect
-
-I'm especially interested in **AI engineering, software systems, and infrastructure** — opportunities where I can take ownership from architecture through implementation.
-
-If you're building something ambitious, I'd love to hear about it.
-
-[**Explore my portfolio ↗**](https://noriakikishida.com) &nbsp;·&nbsp; [**Connect on LinkedIn ↗**](https://www.linkedin.com/in/noriaki-kishida/) &nbsp;·&nbsp; [**Send an email ↗**](mailto:noriaki@uni.minerva.edu)
-
-<sub>BUILT WITH INTENT. ALWAYS LEARNING.</sub>
+<p align="center">
+  <sub>N/K · BUILT WITH INTENT · 2026</sub>
+</p>
