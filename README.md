@@ -142,6 +142,20 @@ I've worked with teams across Japan, South Korea, and Taiwan, taking projects fr
 
 <br>
 
+## 05 / Contributions in Motion
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Marstronix218/Marstronix218/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Marstronix218/Marstronix218/output/github-snake.svg">
+    <img alt="An animated snake weaving through my GitHub contribution graph" src="https://raw.githubusercontent.com/Marstronix218/Marstronix218/output/github-snake.svg" width="100%">
+  </picture>
+  <br>
+  <sub>Generated daily from my GitHub contributions with <a href="https://github.com/Platane/snk">snk</a>.</sub>
+</p>
+
+<br>
+
 ---
 
 <p align="center">

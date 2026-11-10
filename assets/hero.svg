@@ -2,6 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      width="1200" height="330" viewBox="0 0 1200 330"
      role="img" aria-label="Noriaki Kishida engineering portfolio">
+  <style>
+    .orbit-tracer {
+      transform-origin: 1010px 165px;
+      animation: orbit 24s linear infinite;
+    }
+    .signal { animation: signal 4s ease-in-out infinite; }
+    .signal-delayed { animation-delay: 2s; }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @keyframes signal { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .orbit-tracer, .signal { animation: none; }
+    }
+  </style>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0c1420"/>
@@ -62,10 +75,17 @@
           opacity=".32"/>
   </g>
 
+  <!-- A quiet moving signal around the outer orbit. -->
+  <g class="orbit-tracer" fill="#d7f58a">
+    <circle cx="1129" cy="165" r="5"/>
+    <circle cx="1128" cy="152" r="3" opacity=".45"/>
+    <circle cx="1126" cy="141" r="2" opacity=".2"/>
+  </g>
+
   <g fill="#d7f58a">
     <circle cx="1010" cy="165" r="7"/>
-    <circle cx="931" cy="82" r="5"/>
-    <circle cx="1092" cy="94" r="5"/>
+    <circle class="signal" cx="931" cy="82" r="5"/>
+    <circle class="signal signal-delayed" cx="1092" cy="94" r="5"/>
     <circle cx="1072" cy="226" r="5"/>
   </g>
 
