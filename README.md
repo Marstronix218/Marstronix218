@@ -1,16 +1,14 @@
-
 <p align="center">
   <img src="./assets/hero.svg" alt="Noriaki Kishida — AI Systems, Secure Infrastructure & Products" width="100%">
 </p>
 
 <p align="center">
-  <strong>Software Engineer · B.Sc. Computer Science & AI @ Minerva University '27</strong>
+  <strong>Software Engineer · Computer Science & AI @ Minerva University '27 · San Francisco</strong>
 </p>
 
 <p align="center">
-  Building AI systems, secure infrastructure, and end-to-end products that solve real problems.
-  <br>
-  From architecture and implementation to products people can actually use.
+  I build AI tools, reliable systems, and products people can use.<br>
+  My work spans desktop apps, full-stack platforms, distributed systems, and secure AI infrastructure.
 </p>
 
 <p align="center">
@@ -25,110 +23,110 @@
 
 ## 01 / Selected Work
 
-### Built with intent.
+### [knov](https://github.com/Marstronix218/knov)
 
-#### 01 — [knov](https://github.com/Marstronix218/knov) ↗
-
-**LOCAL-FIRST AI · MACOS · TECHNICAL ALPHA**
+**LOCAL-FIRST DESKTOP SOFTWARE · TECHNICAL ALPHA**
 
 <a href="https://github.com/Marstronix218/knov">
-  <img src="https://noriakikishida.com/_next/image?url=%2Fprojects%2Fknov.webp&amp;w=3840&amp;q=75" alt="knov application interface" width="100%">
+  <img src="https://raw.githubusercontent.com/Marstronix218/knov/main/docs/screenshots/home.jpg" alt="knov showing revenue findings with their source evidence and recommended next steps" width="100%">
 </a>
 
-A local-first macOS assistant that finds overlooked revenue opportunities by connecting contracts, email, Slack, and work activity — with evidence behind every finding.
-
-**Engineering:** Tauri and Rust core, local SQLite storage, deterministic detection, privacy-conscious connectors, and optional AI.
+A macOS app that connects contracts, email, Slack, and work activity to surface unbilled work, missing invoices, and overdue commitments. A Rust core applies deterministic rules to source evidence; optional AI helps with context and clarification. Local storage, scoped connectors, and Keychain-held credentials keep privacy part of the architecture.
 
 `Rust` `Tauri` `React` `TypeScript` `SQLite`
 
-**[Explore the source →](https://github.com/Marstronix218/knov)**
+[Source code →](https://github.com/Marstronix218/knov) · [Case study →](https://noriakikishida.com/#case-study)
 
 <br>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Marstronix218/confidential-llm-on-nitro-enclaves">
-        <img src="https://noriakikishida.com/_next/image?url=%2Fprojects%2Fconfidential-llm.webp&amp;w=3840&amp;q=75" alt="Confidential LLM interface" width="100%">
-      </a>
-      <h3>02 — <a href="https://github.com/Marstronix218/confidential-llm-on-nitro-enclaves">Confidential LLM ↗</a></h3>
-      <sub>SECURE AI · CONFIDENTIAL COMPUTING</sub>
-      <p>An LLM chat app that runs inference inside an AWS Nitro Enclave, protecting prompts from the untrusted host.</p>
-      <p><b>Built:</b> RSA-OAEP encryption, vsock communication, remote attestation verification, and a no-AWS mock mode.</p>
-      <p><code>Python</code> <code>AWS</code> <code>Flask</code> <code>Docker</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/syang0624/hookloop">
-        <img src="https://noriakikishida.com/_next/image?url=%2Fprojects%2Fhookloop.webp&amp;w=3840&amp;q=75" alt="HookLoop campaign analysis interface" width="100%">
-      </a>
-      <h3>03 — <a href="https://github.com/syang0624/hookloop">HookLoop ↗</a></h3>
-      <sub>MULTI-AGENT SYSTEMS · HACKATHON</sub>
-      <p>An autonomous paid-ad experimentation agent that generates creatives, simulates campaigns, and learns from performance.</p>
-      <p><b>🏆 2nd Prize</b> — Convex Track, YC Growth Hackathon 2026.</p>
-      <p><code>Next.js</code> <code>Convex</code> <code>OpenAI</code> <code>Sora</code></p>
-      <p><a href="https://hookloop-ruddy.vercel.app">Live demo →</a></p>
-    </td>
-  </tr>
-</table>
+### [Veradact](https://github.com/Marstronix218/veradact)
 
-#### 04 — [Research Copilot](https://github.com/Marstronix218/Research-Copilot) ↗
+**PRODUCT ENGINEERING · LIVE BETA**
 
-**CONTEXT-AWARE AI · CHROME EXTENSION**
+A requirements sign-off product for software agencies: turn meeting notes into requirements clients can confirm, then give coding agents the agreed spec through MCP. Combines AI extraction, client review links, a versioned audit trail, and tenant isolation. Piloted with **12 users across four agencies**, confirming **110+ requirements**.
 
-A browser-native research assistant that clarifies goals, tracks browsing context, extracts relevant insights, and identifies gaps in what you've learned.
+`Next.js` `TypeScript` `PostgreSQL` `Drizzle` `MCP` `Anthropic`
 
-`JavaScript` `FastAPI` `OpenAI API` `Chrome Extensions`
-
-**[Explore the project →](https://github.com/Marstronix218/Research-Copilot)**
+[Live product →](https://veradact.com) · [Source code →](https://github.com/Marstronix218/veradact)
 
 <br>
 
----
+### [Kafka in Python](https://github.com/Marstronix218/kafka-in-python)
 
-## 02 / Engineering Impact
+**DISTRIBUTED SYSTEMS · PERSONAL PROJECT**
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <h2>60 → 5 min</h2>
-      <sub><b>EAGLYS</b></sub>
-      <br>
-      <sub>Confidential AI environment setup</sub>
-    </td>
-    <td align="center" width="33%">
-      <h2>50+</h2>
-      <sub><b>GSP CLOUD</b></sub>
-      <br>
-      <sub>AI agent workflows managed</sub>
-    </td>
-    <td align="center" width="33%">
-      <h2>45+</h2>
-      <sub><b>GLOBAL LAUNCHERS</b></sub>
-      <br>
-      <sub>RSS feeds automated</sub>
-    </td>
-  </tr>
-</table>
+A Kafka-inspired replicated event log built to understand what survives a server failure. Implements partitioning, in-sync replication, leader failover, and idempotent producers. Testing recorded **zero lost acknowledged writes across 409,976 writes and 22 fault-injection runs**, with **2.2× throughput** from partitioning.
 
-Building on real teams across Japan, South Korea, and Taiwan, with a focus on reliable systems, security, and workflow automation.
+`Python` `HTTP/REST` `Docker Compose` `Replication` `Fault Injection`
+
+[Source code →](https://github.com/Marstronix218/kafka-in-python)
 
 <br>
 
-## 03 / Technical Toolkit
+### [Confidential LLM](https://github.com/Marstronix218/confidential-llm-on-nitro-enclaves)
 
-**Languages & frameworks**
+**SECURE AI · OPEN-SOURCE REBUILD**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,ts,rust,js,react,nextjs,fastapi&theme=light" alt="Python, TypeScript, Rust, JavaScript, React, Next.js and FastAPI">
-</p>
+LLM inference inside an AWS Nitro Enclave, with an encrypted transport that keeps prompts and answers unreadable to the data-plane host. Separates the trusted control plane from the relay host and enclave, verifies attestation before key exchange, and includes a Docker Compose mock mode for running without AWS.
 
-**AI & infrastructure**
+`Python` `AWS Nitro Enclaves` `Flask` `React` `Docker`
 
-<p>
-  <img src="https://skillicons.dev/icons?i=pytorch,aws,docker,supabase,flask,postgres,linux&theme=light" alt="PyTorch, AWS, Docker, Supabase, Flask, PostgreSQL and Linux">
-</p>
+[Source code →](https://github.com/Marstronix218/confidential-llm-on-nitro-enclaves)
 
-<sub>My preferred stack is the one that best fits the problem.</sub>
+<br>
+
+### [HookLoop](https://github.com/syang0624/hookloop)
+
+**AI AGENTS · TEAM HACKATHON BUILD**
+
+Three agents form creative hypotheses, generate ad reels, simulate campaign spend, and feed results into the next experiment. Combines structured model outputs, Thompson-sampling budget allocation, and a live reactive dashboard. **2nd Prize, Convex Track — YC Growth Hackathon 2026.**
+
+`Next.js` `Convex` `OpenAI` `Sora`
+
+[Live demo →](https://hookloop-ruddy.vercel.app) · [Source code →](https://github.com/syang0624/hookloop)
+
+<br>
+
+### [IndoBiz Japan](https://github.com/Marstronix218/indobiz_japan)
+
+**PRODUCTION PLATFORM · GLOBAL LAUNCHERS INC.**
+
+An India business-news platform for Japanese executives, built and deployed end to end. Ingests **500+ articles a day from 45+ RSS feeds**, deduplicates and synthesizes stories, and checks summaries against source evidence before publishing. Includes membership payments, authentication, and publishing tools.
+
+`Next.js` `TypeScript` `Python` `Supabase` `Claude` `Stripe`
+
+[Live site →](https://indobiz-japan.launchers-g.com/) · [Source code →](https://github.com/Marstronix218/indobiz_japan)
+
+<br>
+
+**Also built**
+
+- **[idobataAI](https://github.com/Marstronix218/idobataAI)** — A productivity network with private tasks, opt-in sharing, human conversations, and labelled AI personas. [Live site ↗](https://idobata-ai.com)
+- **[Research Copilot](https://github.com/Marstronix218/Research-Copilot)** — A Chrome extension that turns research goals into questions, tracks relevant insights, and identifies knowledge gaps.
+- **[SOLID Marketplace](https://github.com/syang0624/fb_stripe_marketplace)** — A team-built buying agent with listing analysis, simulated negotiations, and meetup payment confirmation. **3rd Place, Auth0 × Stripe Hackathon.**
+
+<br>
+
+## 02 / Experience
+
+I've worked with teams across Japan, South Korea, and Taiwan, taking projects from architecture through deployment.
+
+- **Piece.ai · Software Engineer Intern, AI Agents & Backend** — Added per-branch frontend previews and restored organization-wide CI for an enterprise AI-agent platform.
+- **Global Launchers · Tech Lead / CTO** — Built IndoBiz Japan and automated news curation and distribution, eliminating **10 hours of manual curation a week**.
+- **EAGLYS · Software Engineer Intern, AI Infrastructure** — Built confidential inference infrastructure and a control plane that cut environment setup from **60 to 5 minutes**.
+- **GSP Cloud · Software Engineer Intern, Full-Stack** — Built a console and APIs managing **50+ AI-agent workflows**.
+- **BearVFX · Software Engineer Intern, AI Applications** — Built a pipeline from topic to narrated, lip-synced educational video, cutting production from **4 hours to 8 minutes** in testing.
+
+<br>
+
+## 03 / Tools I Use
+
+| Area | Tools |
+| :--- | :--- |
+| Languages | Python, TypeScript, JavaScript, Rust, SQL |
+| Products & interfaces | React, Next.js, Tauri, FastAPI, Flask, Node.js |
+| AI & automation | OpenAI, Anthropic, PyTorch, MCP, n8n |
+| Systems & infrastructure | AWS, Docker, Linux, PostgreSQL, Supabase, GitHub Actions |
 
 <br>
 
@@ -136,24 +134,21 @@ Building on real teams across Japan, South Korea, and Taiwan, with a focus on re
 
 | Year | Recognition |
 | :--- | :--- |
-| **2026** | 🥈 2nd Prize — Convex Track, YC Growth Hackathon |
-| **2025** | 🥇 Winner — Students@AI Seoul Hackathon, 200 teams |
-| **2024** | 🥇 Winner — Minerva Hiring Hackathon, 150 teams |
+| 2026 | Audience Favorite — AI Supply Chain Hackathon, RxKitchen |
+| 2026 | 3rd Place — Auth0 × Stripe Hackathon, SOLID Marketplace |
+| 2026 | 2nd Prize, Convex Track — YC Growth Hackathon, HookLoop |
+| 2025 | Winner — Students@AI Seoul Hackathon, 200 teams |
+| 2024 | Winner — Minerva Hiring Hackathon, 150 teams |
 
 <br>
 
 ---
 
 <p align="center">
-  <strong>Have an interesting problem to solve?</strong>
-  <br><br>
-  I'm interested in AI engineering, secure systems, and software that makes a measurable difference.
+  Studying Computer Science & AI at Minerva University, graduating May 2027.<br>
+  Always interested in useful products, thoughtful engineering, and people building both.
   <br><br>
   <a href="https://noriakikishida.com"><b>Explore my work ↗</b></a>
   &nbsp; • &nbsp;
-  <a href="mailto:noriaki@uni.minerva.edu"><b>Let's talk ↗</b></a>
-</p>
-
-<p align="center">
-  <sub>N/K · BUILT WITH INTENT · 2026</sub>
+  <a href="mailto:noriaki@uni.minerva.edu"><b>Get in touch ↗</b></a>
 </p>
